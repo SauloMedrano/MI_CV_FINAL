@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MI CV</title> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<style>
+    nav {
+        background-color: #F44336;
+    }
+
+    nav .nav-wrapper {
+          border-top: 5px solid #9E9E9E;
+        
+    }
+
+
+    body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+    }
+
+
+
+    main {
+         flex: 1 0 auto;
+    }
+
+
+
+    .page-footer{
+         background-color:#F44336;
+    }
+
+
+
+    .footer-copyright{
+         background-color: #9E9E9E!important;
+    }
+
+    .mi-logo{
+      width: 150px;
+      margin: auto;
+      border: blue double 2px;
+    }
+
+
+   .imagen_perfil{
+      width: 250px;
+      border-radius: 50%;
+    }
+    .nombre{
+        color: white;
+        margin-top: 10%
+    }
+    .parallax_custom_color{
+        background:#4CAF50;
+    }
+    .imagen_parallax{
+        opacity: 0.8!important;
+    }
+    .elementos_centrados{
+        text-align: center;
+    }
+
+    .imagen_conoceme{
+        width: 280px;
+        border: red dotted 3px;
+        padding: 15px;
+    }
+    
+    .imagen_Mi_Super_Heroe_Favorito{
+      width: 250px;
+    }
+
+    .tam_primaria{
+      width: 250px;
+    }
+    .tam_secundaria{
+      width: 250px;
+    }
+    .tam_prepa{
+      width: 250px;
+    }
+    .fab{
+      font-size: 30px;
+    }
+</style>
+
+
+<body>
+  <!--inicio nav-->
+
+<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html"></a></li>
+          <li><a href="badges.html"></a></li>
+        </ul>
+        <img src="img/logo_saulo.png" alt="" class="brand-logo center mi-logo">
+        <a href="#" data-target="slide-out" class="button-collapse show-on-large sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+        
+  
+  <!--fin nav-->
+
+<!--inicio ul-->
+<ul id="slide-out" class="sidenav">
+  <li><div class="user-view">
+    <div class="background">
+      <img src="img/box3.jpeg">
+    </div>
+    <a href="#user"><img class="circle" src="img/mustang2.jpg"></a>
+    <a href="#name"><span class="white-text name">SAULO MEDRANO</span></a>
+    <a href="#email"><span class="white-text email">saulogabrielmedranoruiz@gmail.com</span></a>
+  </div></li>
+
+
+    <li><a href="#conoceme"><i class="material-icons">assignment_ind</i>Conóceme</a></li>
+    <li><a href="#heroes"><i class="material-icons">flash_on</i>Héroe Favorito</a></li>
+    <li><a href="#musica_fav"><i class="material-icons">audiotrack</i>Música Favorita</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="#educacion"><i class="material-icons">school</i>Educación</a></li>
+    <li><a href="#deportes"><i class="material-icons">games</i>Deporte Favorito</a></li>
+    <li><a href="#social"><i class="material-icons">all_inclusive</i>Redes Sociales</a></li>
+  
+</ul>
+<!--fin ul-->
+
+  <main>
+  <!-- imagen parallax 1 -->
+  <div class="parallax-container">
+    <div class="container elementos_centrados">
+      <h1 class="center nombre">Saulo Gabriel Medrano Ruiz</h1>
+      <img class="imagen_perfil" src="img/IMG_20170426_134200.jpg" alt="">
+    </div>
+    <div class="parallax parallax_custom_color"><img class="imagen_parallax" src="img/bateria.jpg"></div>
+ </div>
+  <!-- fin de imagen parallax 1 -->
+
+
+<!--inicio de seccion conoceme-->
+<div class="container" id="conoceme">
+
+<h2 class="center">Conoceme</h2>
+<div class="row">
+  <div class="col m6">
+    <p>Mi nombre es SAULO GABRIEL MEDRANO RUIZ, nací en CUERNAVACA, MORELOS, el 23 de enero de 2002, y resido en la Colonia LAGUNILLA DEL SALTO, actualmente tengo 17 años.</p>
+    <p>Mis deportes favoritos son el futbol y el box, actualmente entreno box, Los instrumentos que me gustan son la BATERIA, el BAJO, y el TECLADO, el unico que se tocar es la BATERIA.</p>
+    <p>Soy cristiano bautista, asisto a la iglesia REY DE REYES en la colonia lomas de la selva, estoy en el grupo de alabanza, alli es donde aprendi a tocar la BATERIA.</p>
+  </div>
+  <div class="col m6">
+    <img src="img/IMG_20180102_135843.jpg" alt="" class="imagen_conoceme materialboxed">
+  </div>
+</div>
+</div>
+<!--fin de seccion conoceme-->
+
+
+<!-- Inicio seccion de super heroes -->
+<div class="parallax-container">
+  <div class="parallax parallax_custom_color">
+      <img class="imagen_parallax" src="img/avengers.jpeg" alt="">
+    </div>
+</div>
+
+<div class="container" id="MI_SUPER_HEROE_FAVORITO">
+  <h2 class="center">MI SUPER HEROE FAVORITO</h2>
+    <div class="row">
+      <div class="col m6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi expedita quas laborum similique officia! Ullam quis iure earum laboriosam eaque. Dolores quam itaque ratione! Iste voluptate explicabo delectus! Harum, temporibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veritatis, quidem nam beatae ex nulla commodi ab officia facilis quibusdam praesentium, officiis ad suscipit, consectetur accusantium enim. Deleniti, nostrum blanditiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, aut nam? Quasi perferendis corporis consequuntur deserunt repudiandae? Minima obcaecati neque ratione temporibus libero distinctio cum, exercitationem ut amet aliquid illo!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam nostrum ipsa quibusdam officiis deleniti ab obcaecati at maxime porro, perspiciatis, fugiat et. Suscipit voluptatem incidunt quidem in consequuntur harum molestias.</p>
+      </div>
+      <div class="col m6">
+        <img src="img/5e0e398d41abb.png" alt="" class="imagen_conoceme materialboxed">
+      </div>
+    </div>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://youtu.be/VT2HKWeXarg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+</div>
+<!--fin super heroes-->
+
+
+<!--inicio musica-->
+<div class="container" id="MUSICA_FAVORITA">
+
+  <h2 class="center">MUSICA FAVORITA</h2>
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="img/rude1.jpeg"></a>
+    <a class="carousel-item" href="#two!"><img src="img/twenty1.jpeg"></a>
+    <a class="carousel-item" href="#three!"><img src="img/kadosh.jpeg"></a>
+    <a class="carousel-item" href="#four!"><img src="img/cielo.jpeg"></a>
+    <a class="carousel-item" href="#five!"><img src="img/morat.jpeg"></a>
+   <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolorum consequuntur hic illum unde temporibus, impedit dolorem quia dolor at accusamus illo possimus sunt sed! Numquam labore delectus architecto provident!</p>
+   </div>
+  </div>
+</div>
+<!--fin musica-->
+
+<!--inicio escolaridad-->
+<div class="container" id="escolaridad">
+  <h2 class="center" >Educación</h2>
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a  href="#test1">primaria</a></li>
+        <li class="tab col s3"><a  class="active"href="#test2">secundaria</a></li>        
+        <li class="tab col s3"><a href="#test4">preparatoria</a></li>
+      </ul>
+    </div>
+
+    <div id="test1" class="col s12 center">
+      <h3>Otilió Montaño</h3>
+      <img class="tam_primaria" src="img/logo_primaria.jpeg" alt="">
+      <p>Estuve 6 años en el turno matutino, ahí conpoci a mi mejor amigo, y no me gustaba ir jaja XD</p>
+    </div>
+
+    <div id="test2" class="col s12 center">
+      <h3>Ermilo Ábreu Goméz</h3>
+      <img class="tam_secundaria" src="img/logo_secundaria.jpeg" alt="">
+      <p>Estuve 3 años ahí, casi repruevo mate, y entre a jugar futbol</p>
+    </div> 
+
+    <div id="test4" class="col s12 center">
+      <h3>Cetec</h3>
+      <img class="tam_prepa"src="img/prepa.jpeg" alt="">
+      <p>la hice en linea</p>
+    </div>
+  </div>
+
+  <!--inicio cursos-->
+  <h2 class="center">CURSOS</h2>
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs" >
+        <li class="tab col s3"><a   href="#curso1">CODYSSEY</a></li>
+        <li class="tab col s3"><a  class="active" href="#curso2">ICO</a></li>
+      </ul>
+    </div>
+    <div id="curso1" class="col s12 center">
+      <h3 class="center">Codyssey</h3>
+       <P>Codyssey es un curso de programación con una duración de entre 6 y 7 meses, que tiene como objetivo desarrollar habilidades lógicas, de comunicación y trabajo en equipo a través de las matemáticas y la programación.</P>
+       <P> El alumno aprenderá ruby y sql como lenguajes de programación para back-end y HTML, CSS y bases de JavaScript para desarrollo de front-end.</P>
+     <img src="img/curso1.jpeg" alt="">
+    </div>
+    <div id="curso2" class="col s12 center">
+      <h3 class="center">ICO</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, architecto iste. Vero rerum aspernatur sit quasi hic nihil repudiandae nostrum atque architecto provident! Mollitia in rem itaque, ducimus pariatur maiores.</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum labore cupiditate esse incidunt rerum quidem ut, similique numquam optio repellendus! Sunt nam non nihil earum architecto vel necessitatibus velit praesentium.</p>
+      <img src="img/ico.jpeg" alt="">
+    </div>
+  </div>
+  <!--fin cursos-->
+</div>
+<!--fin escolaridad-->
+
+<!--parallax deporte-->
+<div class="parallax-container">
+  <div class="parallax parallax_custom_color"><img class="imagen_parallax"src="img/box6.jpeg"></div>
+</div>
+<!--fin parallax deporte-->
+
+<!--inicio deporte-->
+<div class="container" id="deportes">
+  <h2 class="center">Deporte Favorito</h2>
+  <h3>BOX</h3>
+  <p>El boxeo (del inglés boxing), también llamado a veces boxeo inglés o boxeo irlandés, y coloquialmente conocido como box, es un deporte de contacto en el que dos contrincantes luchan utilizando únicamente sus puños con guantes, golpeando a su adversario de la cintura hacia arriba, dentro de un cuadrilátero especialmente diseñado para tal fin; la pelea se lleva a cabo en breves secuencias de lucha denominadas asaltos y de acuerdo a un preciso reglamento, el cual regula categorías de pesos y duración del encuentro, entre otros aspectos. De un modo más general, boxeo o '''boxing''' </p>
+   <div class="video-container">
+     <iframe  src="<iframe width="560" height="315" src="https://www.youtube.com/embed/rzxVmA3x0jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" frameborder="0"></iframe>
+   </div> 
+</div>
+
+<!--fin deporte-->
+<br>
+<!-- Redes Sociales -->
+<div class="parallax-container">
+<div class="parallax parallax_custom_color"><img class="imagen_parallax" src="img/redes3.jpeg"></div>
+</div>
+
+  <div class="container" id="social">
+      <h2 class="center">Redes Sociales</h2>
+      <div class="row center">
+        <div class="col m3 s3">
+          <a href="https://www.facebook.com">
+            <i class="fab fa-facebook"></i>
+
+          </a>
+        </div>
+        <div class="col m3 s3">
+          <a href="https://www.facebook.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="col m3 s3">
+            <a href="https://www.facebook.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="col m3 s3">
+          <a href="http://api.whatsapp.com/send?phone=+527775190196" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin redes-->
+</main>
+
+<!--inicio footer-->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+
+  </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">SAULO GABRIEL MEDRANO RUIZ</h5>
+          <p class="grey-text text-lighten-4">Un problema bien planteado, es un problema ya resuelto a la mitad.</p>
+        </div>
+
+        <div class="col l4 offset-l2 s12">
+          <!-- <h5 class="white-text">Links</h5> -->
+          <img style="width: 150px;"src="img/giphy.gif" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      © 2020 Saulo Gabriel Medano Ruiz
+
+      </div>
+    </div>
+</footer>
+<!--fin footer-->
+
+
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.parallax').parallax();
+      $('.materialboxed').materialbox();
+      $('.carousel').carousel();
+      $('.tabs').tabs();
+     
+
+    });
+  </script>
+<script>
+$(function() {
+    $('#slide-out li a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+});
+</script>
+
+
+</body>
+</html>

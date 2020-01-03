@@ -1,0 +1,148 @@
+
+    nav {
+        background-color: #F44336;
+    }
+
+    nav .nav-wrapper {
+          border-top: 5px solid #9E9E9E;
+        
+    }
+
+
+    body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+    }
+
+
+
+    main {
+         flex: 1 0 auto;
+    }
+
+
+
+    .page-footer{
+         background-color:#F44336;
+    }
+
+
+
+    .footer-copyright{
+         background-color: #9E9E9E!important;
+    }
+
+    .mi-logo{
+      width: 150px;
+      margin: auto;
+      border: blue double 2px;
+    }
+
+
+   .imagen_perfil{
+      width: 250px;
+      border-radius: 50%;
+    }
+    .nombre{
+        color: white;
+        margin-top: 10%
+    }
+    .parallax_custom_color{
+        background:#4CAF50;
+    }
+    .imagen_parallax{
+        opacity: 0.8!important;
+    }
+    .elementos_centrados{
+        text-align: center;
+    }
+
+    .imagen_conoceme{
+        width: 280px;
+        border: red dotted 3px;
+        padding: 15px;
+    }
+    
+    .imagen_Mi_Super_Heroe_Favorito{
+        width: 250px;
+    }
+
+/*       
+      nav {
+          background-color: #F44336;
+      }
+  
+          nav .nav-wrapper {
+            border-top: 5px solid #9E9E9E;
+          
+      }
+  
+  
+          body {
+           display: flex;
+           min-height: 100vh;
+           flex-direction: column;
+      }
+  
+  
+  
+          main {
+           flex: 1 0 auto;
+      }
+  
+  
+  
+          .page-footer{
+           background-color:#F44336;
+      }
+  
+  
+  
+         .footer-copyright{
+           background-color: #9E9E9E!important;
+      }
+   */
+      .mi-logo{
+        width: 150px;
+        margin: auto;
+        border: blue double 2px;
+      }
+  
+  
+     .imagen_perfil{
+        width: 250px;
+        border-radius: 50%;
+      }
+    .nombre{
+      color: white;
+      margin-top: 10%
+    }
+    .parallax_custom_color{
+      background:#4CAF50;
+    }
+    .imagen_parallax{
+      opacity: 0.8!important;
+    }
+    .elementos_centrados{
+      text-align: center;
+    }
+  
+    .imagen_conoceme{
+      width: 280px;
+      border: red dotted 3px;
+      padding: 15px;
+    }
+   .imagen_MI_SUPER_HEROE_FAVORITO{
+     width: 250px;
+    }
+
+    .tam_primaria{
+      WIDTH: 250PX;
+    }
+    .tam_secundaria{
+      width: 250px;
+    }
+    .tam_prepa{
+      width: 250px;
+    }
